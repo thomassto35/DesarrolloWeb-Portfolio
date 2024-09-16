@@ -1,143 +1,150 @@
-/* Aplicar fondo a la página */
+/* Estilos generales */
 body {
-    background-color: #f4f4f4; /* Gris claro */
-    color: #333; /* Gris oscuro para el texto */
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
     margin: 0;
     padding: 0;
+    color: #393E46;
 }
 
-/* Estilo del contenedor principal */
-main {
-    background-color: #fff; /* Blanco para el fondo del contenido */
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Estilo del encabezado */
+/* Header */
 header {
-    background-color: #000000; /* Gris oscuro */
-    color: #fff; /* Blanco para el texto */
-    padding: 20px;
-    text-align: center;
-}
-
-/* Estilo del menú de navegación */
-nav {
-    background-color: #000; /* Negro */
-    color: #fff; /* Blanco para el texto */
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 45px 100px;
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+
 }
 
-nav li {
-    margin: 0 15px;
+header h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+nav {
+    margin-top: 15px;
 }
 
 nav a {
-    color: #fff; /* Blanco para los enlaces */
+    margin: 0 15px;
     text-decoration: none;
+    color: #393E46;
     font-weight: bold;
+    font-size: 24px;
 }
 
-/* Estilo de los testimonios */
-#testimonios {
-    background-color: #fff; /* Blanco para el fondo de la sección */
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-}
+nav a:hover {
+    color: #555;
+}   
 
-.testimonio {
-    border-bottom: 1px solid #ddd; /* Línea gris claro entre testimonios */
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-}
-
-.testimonio img {
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    margin-right: 15px;
-}
-
-.info-autor {
+/* Contenedor principal */
+.container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #fff;
+}
+
+/* Sección de texto */
+.text-section {
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 50%;
+}
+
+.text-section h2 {
+    font-size: 28px;
+    color: #393E46;
+    margin-bottom: 10px;
+}
+
+.text-section h1 {
+    font-size: 50px;
+    color: #393E46;
+    margin: 10px 0;
+}
+
+.text-section p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #929AAB;
+}
+
+.text-section button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #393E46;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.text-section button:hover {
+    background-color: #555;
+}
+
+/* Imagen del perfil */
+.image-section {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-/* Estilo de los botones */
-button {
-    background-color: #333; /* Gris oscuro para el botón */
-    color: #fff; /* Blanco para el texto del botón */
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #555; /* Gris medio en hover */
-}
-
-.foto-perfil {
-    width: 200px;
-    height: 200px;
+.image-section img {
+    max-width: 360px;
     border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 4px 8px #333(0, 0, 0, 0.3);
-    margin: 20px; /* Espacio alrededor de la imagen */
-    display: block;
-    margin-left: auto;
-    margin-right: auto; /* Centra la imagen horizontalmente */
+    margin-left: 50px;
+    margin-right: 150px;
 }
 
-/* Estilo para el footer */
+/* Footer */
 footer {
-    background-color: #333; /* Fondo oscuro para el footer */
-    color: #fff; /* Texto blanco */
-    padding: 20px; /* Espaciado interno */
-    text-align: center; /* Centrar el texto */
+    background-color: #393E46;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    height: auto;
 }
-
-/* Estilo para el contenedor de información de contacto */
+footer p {
+    font-size: 14px;
+    color: #f7f7f7;
+}
 .contact-info {
-    display: flex; /* Usar flexbox */
-    justify-content: center; /* Centrar los elementos horizontalmente */
-    align-items: center; /* Centrar los elementos verticalmente */
-    gap: 20px; /* Espacio entre los elementos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Espacio entre los elementos */
 }
 
-/* Estilo para los iconos */
 .contact-info img {
-    width: 24px; /* Tamaño del icono */
-    height: 24px; /* Tamaño del icono */
-    vertical-align: middle; /* Alinear verticalmente con el texto */
+    width: 40px; /* Ajusta el tamaño del icono */
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
-/* Estilo para los enlaces y párrafos */
-.contact-info a, .contact-info p {
-    margin: 0; /* Eliminar márgenes por defecto */
-    color: #fff; /* Color del texto blanco */
-    text-decoration: none; /* Eliminar subrayado */
+.contact-info p {
+    margin: 0;
+    font-size: 16px;
+    color: #f7f7f7;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #f7f7f7;
 }
 
 .contact-info a:hover {
-    text-decoration: underline; /* Subrayar el enlace al pasar el ratón */
+    color: #f7f7f7; /* Cambia de color al pasar sobre el enlace */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
 }
 
