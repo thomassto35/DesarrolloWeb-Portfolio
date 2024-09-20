@@ -7,38 +7,68 @@
     <link rel="stylesheet" href="assets/estilos/estilos.css">
 </head>
 <body>
-    <header id="header"><h1>Sobre Mi</h1>
+    <!-- Sección de Encabezado -->
+    <header id="header">
+        <h1 id="nombre">Sobre Mi</h1>
         <nav id="main-nav">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#sober-mi"  rel="noopener noreferrer">Sobre Mi</a></li>
-                <li><a href="cv.html"  rel="noopener noreferrer">Mi Experiencia</a></li>
-                <li><a href="#main-content"  rel="noopener noreferrer">Servicios</a></li>
-                <li><a href="contacto.html"  rel="noopener noreferrer">Contacto</a></li>
-            </ul>
+            <a href="index.html">Inicio</a>
+            <a href="#sobreMi" rel="noopener noreferrer">Sobre Mi</a>
+            <a href="cv.html" rel="noopener noreferrer">Mi Experiencia</a>
+            <a href="servicios.html" rel="noopener noreferrer">Mis Servicios</a>
+            <a href="contacto.html" rel="noopener noreferrer">Contactame</a>
         </nav>
     </header>
-    <main id="main-content">
-        <section id="sobre-mi">
-            <p>
-                Soy Thomas Stoffel, un profesional en IT con 2 años de experiencia en la administración de bases de datos y sistemas. Actualmente, estudio la Licenciatura en Gestión de la Tecnología e Información en Ciudad Autónoma de Buenos Aires, donde estoy en el segundo año de la carrera.
-            </p>
-            <p>
-                Trabajo como Administrador de Bases de Datos Oracle, donde gestiono clientes y realizo la instalación y creación de motores y bases de datos. Anteriormente, he acumulado experiencia como Administrador de Sistemas, encargándome de la administración de aplicaciones y servidores. Estas experiencias me han permitido desarrollar habilidades en la gestión de infraestructura tecnológica y en la implementación de soluciones eficientes.
-            </p>
-            <p>
-                Mi objetivo es continuar mi crecimiento en el campo de IT, especializándome en la optimización de sistemas y bases de datos, y contribuir a proyectos innovadores que resuelvan problemas tecnológicos complejos. Estoy comprometido con el aprendizaje continuo y la mejora constante, aplicando mejores prácticas para asegurar el éxito de los proyectos en los que participo.
-            </p>
-        </section>
+    <main>
+        <!-- Sección principal -->
+        <div class="container">
+            <!-- Sección de texto -->
+            <div class="text-section">
+                <h2>Introducción</h2>
+                <p>Soy Thomas Stoffel, un profesional en IT con 2 años de experiencia en la administración de bases de datos y sistemas. Actualmente, estudio la Licenciatura en Gestión de la Tecnología e Información en Ciudad Autónoma de Buenos Aires, donde estoy en el segundo año de la carrera.</p>
+                <p>Trabajo como Administrador de Bases de Datos Oracle, donde gestiono clientes y realizo la instalación y creación de motores y bases de datos. Anteriormente, he acumulado experiencia como Administrador de Sistemas, encargándome de la administración de aplicaciones y servidores. Estas experiencias me han permitido desarrollar habilidades en la gestión de infraestructura tecnológica y en la implementación de soluciones eficientes.</p>
+                <p>Mi objetivo es continuar mi crecimiento en el campo de IT, especializándome en la optimización de sistemas y bases de datos, y contribuir a proyectos innovadores que resuelvan problemas tecnológicos complejos. Estoy comprometido con el aprendizaje continuo y la mejora constante, aplicando mejores prácticas para asegurar el éxito de los proyectos en los que participo.</p>
+            </div>
+        </div>
+        <div class="skills-section">
+            <h2>Habilidades Blandas</h2>
+            <div class="habilidad">
+                <a href="#comunicacion">
+                    <img src="assets/imagenes/communication.svg" alt="Comunicación">
+                    Comunicación efectiva
+                </a>
+            </div>
+            <div class="habilidad">
+                <a href="#trabajo-en-equipo">
+                    <img src="assets/imagenes/trabajo-en-equipo.png" alt="Trabajo en equipo">
+                    Trabajo en equipo
+                </a>
+            </div>
+            <div class="habilidad">
+                <a href="#resolucion-de-problemas">
+                    <img src="assets/imagenes/solucion-de-problemas.png" alt="Resolución de problemas">
+                    Solucion de Problemas
+                </a>
+            </div>
+            <div class="habilidad">
+                <a href="#adaptabilidad">
+                    <img src="assets/imagenes/adaptable.png" alt="Adaptabilidad">
+                    Adaptabilidad
+                </a>
+            </div>
+        </div>
+        
     </main>
-    <hr>
+    
+    
+    
+    
+    <!-- Footer -->
     <footer>
         <div class="contact-info">
             <img class="icono-mail" src="assets/imagenes/mail (1).png" alt="mail"><p><a href="mailto:thomassto35@gmail.com">thomassto35@gmail.com</a></p>
-            <img class="icono-telefono" src="assets/imagenes/Contact Us.png" alt="telefono" srcset=""><p>Teléfono: +54-91160175704</p>
-            <img class="icono-linkedin" src="assets/imagenes/linkedin.png" alt="linkedin"><p><a href="https://www.linkedin.com/in/thomas-stoffel-7ab071238/"  rel="noopener noreferrer">LinkedIn</a></p>
+            <img class="icono-telefono" src="assets/imagenes/Contact Us.png" alt="telefono"><p>Teléfono: +54-91160175704</p>
+            <img class="icono-linkedin" src="assets/imagenes/linkedin.png" alt="linkedin"><p><a href="https://www.linkedin.com/in/thomas-stoffel-7ab071238/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
         </div>
     </footer>
-    
 </body>
 </html>
