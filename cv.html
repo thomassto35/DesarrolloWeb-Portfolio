@@ -11,13 +11,11 @@
         <h1>Mi Curriculum</h1>
         <!-- Menú de navegación -->
     <nav id="main-nav">
-        <ul>
-            <li><a href="index.html"  rel="noopener noreferrer">Inicio</a></li>
-            <li><a href="sobreMi.html"  rel="noopener noreferrer">Sobre Mi</a></li>
-            <li><a href="#main-content"  rel="noopener noreferrer">Mi Experiencia</a></li>
-            <li><a href="servicios.html"  rel="noopener noreferrer">Servicios</a></li>
-            <li><a href="contacto.html"  rel="noopener noreferrer">Contacto</a></li>
-        </ul>
+        <a href="index.html">Inicio</a>
+        <a href="sobreMi.html" rel="noopener noreferrer">Sobre Mi</a>
+        <a href="#cv" rel="noopener noreferrer">Mi Experiencia</a>
+        <a href="servicios.html" rel="noopener noreferrer">Mis Servicios</a>
+        <a href="contacto.html" rel="noopener noreferrer">Contactame</a>
     </nav>
     </header>
     <main id="main-content">
@@ -60,7 +58,9 @@
                         </p>
                         <ul>
                             <li>
-                                <p>Administración de bases de datos: Encargado de levantar motores de bases de datos, crear las bases, ya sea Stand By o CDB. Resolver errores que tengan los clientes.</p>
+                                <p>Administración de bases de datos: Encargado de levantar motores de bases de datos, crear las bases, ya sea Stand By o CDB.
+                                    Realizar export, imports, backups, tanto de bases de datos, tablas, tablespaces, datos. 
+                                    Resolver errores que tengan los clientes.</p>
                             </li>
                         </ul>
                     </li>
@@ -70,44 +70,59 @@
     </section>
 
     <hr>
-
-    <!-- Sección de habilidades y conocimientos -->
-    <section id="habilidades-conocimientos">
-        <h2>HABILIDADES:</h2>
-        <ul>
-            <li>Trabajo en Equipo</li>
-            <li>Comunicación</li>
-            <li>Análisis</li>
-            <li>Aprendizaje Continuo</li>
-            <li>Adaptabilidad</li>
-        </ul>
-        <h2>Técnicas:</h2>
-            <div class="skill">
-                <label for="sql">SQL:</label>
-                <progress id="sql" value="90" max="100"></progress>
-            </div>
-            <div class="skill">
-                <label for="linux">Linux:</label>
-                <progress id="linux" value="75" max="100"></progress>
-            </div>
-            <div class="skill">
-                <label for="pl/sql">PL/SQL:</label>
-                <progress id="pl/sql" value="60" max="100"></progress>
-            </div>
-            <div class="skill">
-                <label for="python">Python:</label>
-                <progress id="python" value="80" max="100"></progress>
-            </div>
-            
-            <div class="skill">
-                <label for="html">HTML:</label>
-                <progress id="html" value="70" max="100"></progress>
-            </div>
-            <div class="skill">
-                <label for="css">CSS:</label>
-                <progress id="css" value="50" max="100"></progress>
-            </div>
-    </section>
+    <div class="habilidad-section" id="conocimientos">
+        <h2>Conocimientos</h2>
+        <div class="skill">
+            <a href="#sql">
+                <img src="assets/imagenes/Oracle_SQL_Developer-Logo.wine.svg" alt="SQL" class="skill-icon">
+                <span>SQL</span>
+            </a>
+        </div>
+        <div class="skill"></div>
+            <a href="#plsql">
+                <img src="assets/imagenes/icons8-oracle-pl-sql-100.png" alt="PL/SQL" class="skill-icon">
+                <span>PL/SQL</span>
+            </a>
+        </div>
+        <div class="skill">
+            <a href="#linux">
+                <img src="assets/imagenes/Linux-Logo.wine.svg" alt="Linux" class="skill-icon">
+                <span>Linux</span>
+            </a>
+        </div>
+        <div class="skill">
+            <a href="#python">
+                <img src="assets/imagenes/Python_(programming_language)-Logo.wine.svg" alt="Python" class="skill-icon">
+                <span>Python</span>
+            </a>
+        </div>
+        <div class="skill">
+            <a href="#html">
+                <img src="assets/imagenes/icons8-html.svg" alt="HTML" class="skill-icon">
+                <span>HTML</span>
+            </a>
+        </div>
+        <div class="skill">
+            <a href="#css">
+                <img src="assets/imagenes/icons8-css.svg" alt="CSS" class="skill-icon">
+                <span>CSS</span>
+            </a>
+        </div>
+        <div class="skill">
+            <a href="#java">
+                <img src="assets/imagenes/Java_(programming_language)-Logo.wine.svg" alt="Java" class="skill-icon">
+                <span>Java</span>
+            </a>
+        </div>
+        <div class="skill">
+            <a href="#jenkins">
+                <img src="assets/imagenes/pngegg.png" alt="Jenkins" class="skill-icon">
+                <span>Jenkins</span>
+            </a>
+        </div>
+    </div>
+    
+    
 
     <hr>
 
