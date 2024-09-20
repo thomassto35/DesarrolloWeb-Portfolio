@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f7f7f7;
+    background-color: #fff;
     margin: 0;
     padding: 0;
     color: #393E46;
@@ -90,18 +90,16 @@ nav a:hover {
 
 /* skills blandas sobre mi */
 
-
-
-
-
 .skills-section {
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    padding-bottom: 0;
     max-width: 100%;
     text-align: center;
     display: flex;  /* Habilita flexbox */
     flex-wrap: wrap;  /* Permite que los elementos se ajusten si hay poco espacio */
     justify-content: center;  /* Centra los elementos horizontalmente */
+    background-color:#EEEEEE;
 }
 
 .skills-section h2 {
@@ -155,6 +153,7 @@ nav a:hover {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin-left: 30px;
+    background-color: #fff;
 }
 
 .experiencia h2,
@@ -197,6 +196,7 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
+
 }
 
 .titulo-conocimientos {
@@ -228,16 +228,16 @@ nav a:hover {
     color: #929AAB;
 }
 
-.descargarCV-section p {
-    font-size: 40px;
-
-}
-
 .descargaCV-section {
     font-size: 20px;
     text-align: center;
-
 }
+.descargaCV-section a {
+    text-decoration: none;
+    color:#555;
+}
+
+
 
 
 
