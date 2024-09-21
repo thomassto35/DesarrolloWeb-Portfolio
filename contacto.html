@@ -8,37 +8,41 @@
 </head>
 <body>
     <header id="header">
-        <!-- Menú de navegación -->
-    <nav id="main-nav">
-        <ul>
-            <li><a href="index.html"  rel="noopener noreferrer">Inicio</a></li>
-            <li><a href="sobreMi.html"  rel="noopener noreferrer">Sobre Mi</a></li>
-            <li><a href="cv.html"  rel="noopener noreferrer">Mi Experiencia</a></li>
-            <li><a href="servicios.html"  rel="noopener noreferrer">Servicios</a></li>
-            <li><a href="#main-content"  rel="noopener noreferrer">Contacto</a></li>
-        </ul>
-    </nav>
+        <h1 id="nombre">Contacto</h1>
+            <nav id="main-nav">
+                <a href="index.html">Inicio</a></li>
+                <a href="sobreMi.html"  rel="noopener noreferrer">Sobre Mi</a></li>
+                <a href="cv.html"  rel="noopener noreferrer">Mi Experiencia</a></li>
+                <a href="servicios.html"  rel="noopener noreferrer">Mis Servicios</a></li>
+                <a href="#contacto"  rel="noopener noreferrer">Contactame   </a></li>
+            </nav>
+        </div>
     </header>
     <!-- Sección de contacto -->
      <main id="main-content">
-        <section id="contacto">
-            <h2>Contactame</h2>
-            <div class="formulario">
-                <form action="enviar_formulario.php" method="post">
-                    <label for="nombre">Nombre:</label><br>
-                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required><br><br>
-    
-                    <label for="email">Correo Electrónico:</label><br>
-                    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required><br><br>
-    
-                    <label for="mensaje">Mensaje:</label><br>
-                    <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" required></textarea><br><br>
-    
-                    <button type="submit">Enviar Mensaje</button>
+        <section id="contact" class="contact-section">
+            <div class="contact-header">
+                <h2>¡Conectemos!</h2>
+            </div>
+            <div class="contact-form">
+                <form action="tu_script_de_envio.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
                 </form>
             </div>
-            
         </section>
+        
      </main>
      <footer>
         <div class="contact-info">

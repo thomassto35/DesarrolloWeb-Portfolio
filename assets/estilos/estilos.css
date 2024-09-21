@@ -122,7 +122,7 @@ nav a:hover {
 }
 /*Testimonios*/
 .testimonios {
-    background-color: #EEEEEE;
+    background-color: #f7f7f7;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -251,7 +251,12 @@ nav a:hover {
     margin-left: 20px;
 }
 
+.container-skills {
+    background-color: #393E46;
+}
+
 .habilidad-section {
+    background-color:#f7f7f7;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -297,11 +302,71 @@ nav a:hover {
     color:#555;
 }
 
+/* Sección de contacto */
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    max-width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+/* Encabezado de la sección */
+.contact-header h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
 
+/* Formulario de contacto */
+.contact-form {
+    margin-bottom: 30px;
+}
 
+.form-group {
+    margin-bottom: 20px;
+}
 
+label {
+    display: block;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 5px;
+}
 
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
 
 /* Footer */
 footer {
