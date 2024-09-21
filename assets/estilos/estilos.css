@@ -88,6 +88,66 @@ nav a:hover {
     font-size: 18px;
 }
 
+/* Estilo de cada servicio */
+.container-servicios {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 25px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-titulo {
+    text-align: center;
+    font-size: 28px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.service {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.service p {
+    color: #929AAB;
+}
+/*Testimonios*/
+.testimonios {
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.testimonios h2 {
+    font-size: 28px;
+    margin-bottom: 0;
+    color: #393E46;
+}
+
+.testimonio .info-autor {
+    color: #393E46;
+}
+
+
+.testimonio {
+    margin: 0 50px;
+    color: #000;
+    font-size: 20px;
+}
+
+
+
 /* skills blandas sobre mi */
 
 .skills-section {
