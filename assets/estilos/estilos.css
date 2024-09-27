@@ -88,6 +88,20 @@ nav a:hover {
     font-size: 18px;
 }
 
+/* Imagen del perfil */
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    max-width: 360px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+
 /* Estilo de cada servicio */
 .container-servicios {
     display: flex;
@@ -191,21 +205,6 @@ nav a:hover {
     height: 120px;  /* Ajusta el tamaño del ícono según sea necesario */
 }
 
-
-
-/* Imagen del perfil */
-.image-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image-section img {
-    max-width: 360px;
-    border-radius: 50%;
-    margin-left: 50px;
-    margin-right: 150px;
-}
 
 /*Conocimientos mi expereiencia*/
 

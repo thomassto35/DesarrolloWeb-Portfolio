@@ -4,67 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="assets/estilos/estilos">   
-    <link rel="stylesheet" href="assets/estilos/base.css">
-    <link rel="stylesheet" href="assets/estilos/index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/estilos/estilos.css">
 </head>
 <body class="d-flex flex-column min-vh-100">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <h1>Thomas Stoffel</h1>
-                </a>
-                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav nav nav-underline">
-                        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="sobreMi.html">Sobre Mi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="cv.html">Mi CV</a></li>
-                        <li class="nav-item"><a class="nav-link" href="servicios.html">Mis Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <header id="header">
+        <h1 id="nombre">Contacto</h1>
+            <nav id="main-nav">
+                <a href="index.html">Inicio</a></li>
+                <a href="sobreMi.html"  rel="noopener noreferrer">Sobre Mi</a></li>
+                <a href="cv.html"  rel="noopener noreferrer">Mi Experiencia</a></li>
+                <a href="servicios.html"  rel="noopener noreferrer">Mis Servicios</a></li>
+                <a href="#contacto"  rel="noopener noreferrer">Contactame   </a></li>
+            </nav>
+        </div>
     </header>
     
+    <!-- Sección principal -->
     <div class="container">
+        <!-- Sección de texto -->
         <div class="text-section">
             <h2>Introducción</h2>
             <h1>DBA Oracle<br>Administrador de Sistemas</h1>
             <p>¡Hola! Soy Thomas Stoffel, Administrador de Bases de Datos Oracle y de Sistemas, además de estudiante de Gestión de Tecnología e Información. Con 2 años de experiencia en IT, me especializo en la administración de bases de datos y sistemas. Mi enfoque está en la gestión eficiente de aplicaciones, utilizando metodologías ágiles y trabajo en equipo para implementar soluciones tecnológicas innovadoras.</p>
             <a href="sobreMi.html"><button>Sobre Mi</button></a>
         </div>
+        <!-- Sección de imagen -->
         <div class="image-section">
             <img src="assets/imagenes/fotoPerfil.png" alt="Thomas Stoffel">
         </div>
     </div>
-    <footer class="bg-dark text-light py-4 mt-auto">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-4 mb-3">
-                    <h5>Contacto</h5>
-                    <p>Email: <a href="mailto:thomassto35@gmail.com" class="text-light">thomassto35@gmail.com</a></p>
-                    <p>Teléfono: +54-91160175704</p>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <h5>Redes Sociales</h5>
-                    <a href="https://www.linkedin.com/in/thomas-stoffel-7ab071238/" target="_blank" class="text-light mx-2">
-                        <img src="assets/imagenes/linkedin.png" alt="LinkedIn" width="24"> LinkedIn
-                    </a>
-                </div>
-                <div class="col-md-4 mb-3">
-                    <h5>Información Adicional</h5>
-                    <p>&copy; 2024 Thomas Stoffel. Todos los derechos reservados.</p>
-                </div>
-            </div>
+    <footer>
+        <div class="contact-info">
+            <img class="icono-mail" src="assets/imagenes/mail (1).png" alt="mail"><p><a href="mailto:thomassto35@gmail.com">thomassto35@gmail.com</a></p>
+            <img class="icono-telefono" src="assets/imagenes/Contact Us.png" alt="telefono" srcset=""><p>Teléfono: +54-91160175704</p>
+            <img class="icono-linkedin" src="assets/imagenes/linkedin.png" alt="linkedin"><p><a href="https://www.linkedin.com/in/thomas-stoffel-7ab071238/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
         </div>
     </footer>
-    
 </body>
-</html>
+</html> Este es otro hmtl mio podes hacerlo responsive con boostrap y tambien la navbar 
